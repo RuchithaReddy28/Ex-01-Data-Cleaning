@@ -19,4 +19,66 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE
-# OUPUT
+```
+Developed by :AKKIREDDY RUCHITHA REDDY
+Registration Number : 212221230004
+```
+```
+import pandas as pd
+df=pd.read_csv("Data_set.csv")
+df.head(5)
+
+df.info()
+
+df.isnull()
+
+df.isnull().sum()
+
+df['show_name']=df['show_name'].fillna(df['aired_on'].mode()[0])
+df['aired_on']=df['aired_on'].fillna(df['aired_on'].mode()[0])
+df['original_network']=df['original_network'].fillna(df['aired_on'].mode()[0])
+df.head()
+
+df['rating']=df['rating'].fillna(df['rating'].mean())
+df['current_overall _rank']=df['current_overall_rank'].fillna(df['current_overall_rank'].mean())
+df.head()
+
+df['watchers']=df['watchers'].fillna(df['watchers'].median())
+df.head()
+
+df.info()
+
+df.isnull().sum()
+```
+# OUTPUT
+
+DATA:
+
+![OUTPUT](./1.png)
+![OUTPUT](./3.png)
+![OUTPUT](./4.png)
+
+NON NULL BEFORE:
+
+![](./2.png)
+
+MODE:
+![](./5.png)
+
+MEAN:
+![](./6.png)
+
+MEDIAN:
+![](./7.png)
+
+NON NULL AFTER:
+![](./8.png)
+
+![](./9.png)
+
+# RESULT:
+Thus the given data is read,cleansed and cleaned data is saved into the file. 
+
+
+
+
