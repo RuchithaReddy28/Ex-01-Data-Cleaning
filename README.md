@@ -18,8 +18,8 @@ Remove the null values from the data
 ## STEP 4
 Save the Clean data to the file
 
-# CODE
-CODE FOR DATA SET 1:
+## CODE:
+## CODE FOR DATA SET 1:
 ```
 Developed by :AKKIREDDY RUCHITHA REDDY
 Registration Number : 212221230004
@@ -52,22 +52,27 @@ df.info()
 df.isnull().sum()
 
 ```
-# OUTPUT
-Data
-!
-!
-!
-NON NULL BEFORE
-!
-MODE:
-!
-MEAN:
-!
-MEDIAN:
-!
-!
-NON NULL AFTER:
-!
+## OUTPUT FOR DATASET 1:
+## Data
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/1.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/2.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/3.png?raw=true)
+
+## NON NULL BEFORE:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/4.png?raw=true)
+
+## MODE:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/5.png?raw=true)
+
+## MEAN:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/6.png?raw=true)
+
+## MEDIAN:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/7.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/8.png?raw=true)
+
+## NON NULL AFTER:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/9.png?raw=true)
 
 ### CODE FOR DATA SET 2:
 ```
@@ -103,20 +108,24 @@ d.isnull().sum()
 #Checking info of the dataset to check all the columns have entries
 d.info()
 ```
-###OUTPUT:
-DATA:
-!
-!
-!
-NULL BEFORE:
-!
-MODE:
-!
-MEDIAN:
-!
-!
-NON NULL AFTER:
-!
+## OUTPUT FOR DATASET 2::
+## DATA:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/10.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/11.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/12.png?raw=true)
+
+## NULL BEFORE:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/13.png?raw=true)
+
+## MODE:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/14.png?raw=true)
+
+## MEDIAN:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/15.png?raw=true)
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/16.png?raw=true)
+
+## NON NULL AFTER:
+![output](https://github.com/RuchithaReddy28/Ex-01-Data-Cleaning/blob/main/17.png?raw=true)
 
 # RESULT:
 Thus the given data is read,cleansed and cleaned data is saved into the file. 
